@@ -1,4 +1,5 @@
-# sample-thesis-project
+# REMA-thesis-project Ngan Nguyen
+Automatic identificastion of clickbait headlines
 This repository is an example for the structure and content that a CLTL thesis project may have. 
 
 # Overview
