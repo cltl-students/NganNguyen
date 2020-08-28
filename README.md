@@ -23,21 +23,21 @@ I. For the linguistic analysis of clickbait and non-clickait
 
       python preprocessing_data.py
 
-       python analyse_data.py
+      python analyse_data.py
 
 The results of the analysis in pdf format and stored in folder "Figures"
 
 II. For the feature extraction from the two corpora
 
-    python balanced_data.py
+      python balanced_data.py
 
-       python extract_features.py
+      python extract_features.py
 
 The rsults are two models of embeddings stored in folder "Model" and feature vectors for training in folder "Vector"
 
 II. For the training and evaluating of machine learning algorithms
 
-    python classifier.
+      python classifier.
 
 The results are reports on the performance of each classifier in txt format, stored in "Results"
 
