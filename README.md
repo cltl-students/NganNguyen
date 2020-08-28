@@ -21,7 +21,7 @@ Run the scripts in this order:
 
 I. For the linguistic analysis of clickbait and non-clickait
 
-Run:   python preprocessing_data.py
+      python preprocessing_data.py
 
        python analyse_data.py
 
@@ -29,7 +29,7 @@ The results of the analysis in pdf format and stored in folder "Figures"
 
 II. For the feature extraction from the two corpora
 
-Run:   python balanced_data.py
+    python balanced_data.py
 
        python extract_features.py
 
@@ -37,7 +37,7 @@ The rsults are two models of embeddings stored in folder "Model" and feature vec
 
 II. For the training and evaluating of machine learning algorithms
 
-Run:   python classifier.
+    python classifier.
 
 The results are reports on the performance of each classifier in txt format, stored in "Results"
 
