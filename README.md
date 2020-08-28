@@ -1,6 +1,5 @@
-# REMA-thesis-project Ngan Nguyen
-Clickbait anotomy: Identify clickbait with machine learning 
-
+# Clickbait anotomy: Identify clickbait with machine learning
+ 
 # Overview
 Thisis a project is a part of the Master Thesis "Clickbait anotomy: Identify clickbait with machine learning", for the Research Master in Humanities, specialising in Human Language Technology at the Vrije Universiteit.
 
