@@ -5,7 +5,7 @@ Thisis a project is a part of the Master Thesis "Clickbait anotomy: Identify cli
 
 This project aims at analysing the linguistic features of clickbait in order to make a distinction between clickbait and non-clickbait and to engineer features for three different machine classifiers Logistic Regression, Random Forest and Support Vector Machine. 
 
-The results of the analysis shows that syntactic and semantic features are importance to detect clickbait headlines. In this project, 100-dimension word embeddings and encoded sequential part-of-speech and dependency tags are used to represent clickbait headlines, while a 100-dimension document embedding model is trained to represent the content of clickbait. The best performance is achieved SVM clasiffier with word embeddings with the results of 0.82 precision and recall.
+The results of the analysis shows that syntactic and semantic features are importance to detect clickbait headlines. In this project, 100-dimension word embeddings and encoded sequential part-of-speech and dependency tags are used to represent clickbait headlines, while a 100-dimension document embedding model is trained to represent the contents of clickbait. The best performance is achieved SVM clasiffier with word embeddings with the results of 0.82 precision and recall.
 
 # Data
 The Data for this project is two dataset: the Clickbait Challenge 2017 dataset and clickbait headline dataset from Chakraborty et al (2016). The firt dataset contains clickbait and non-clickbait headlines and contents. The second one only consist of headlines.
