@@ -37,7 +37,7 @@ The rsults are two models of embeddings stored in folder "Model" and feature vec
 
 II. For the training and evaluating of machine learning algorithms
 
-      python classifier.
+      python classifier
 
 The results are reports on the performance of each classifier in txt format, stored in "Results"
 
