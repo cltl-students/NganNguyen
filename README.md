@@ -1,7 +1,7 @@
 # Clickbait anotomy: Identify clickbait with machine learning
  
 # Overview
-Thisis a project is a part of the Master Thesis "Clickbait anotomy: Identify clickbait with machine learning", for the Research Master in Humanities, specialising in Human Language Technology at the Vrije Universiteit.
+This a project is a part of the Master Thesis "Clickbait anotomy: Identify clickbait with machine learning", for the Research Master in Humanities, specialising in Human Language Technology at the Vrije Universiteit.
 
 This project aims at analysing the linguistic features of clickbait in order to make a distinction between clickbait and non-clickbait and to engineer features for three different machine classifiers Logistic Regression, Random Forest and Support Vector Machine. 
 
