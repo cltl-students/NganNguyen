@@ -1,0 +1,48 @@
+
+Classifier:Logistic Regression
+Best prarameters:{'LR__C': 100, 'LR__solver': 'lbfgs'}
+Accuracy:0.700732153752288
+Classification report:              precision    recall  f1-score   support
+
+          CB       0.70      0.70      0.70      1618
+         Non       0.70      0.71      0.70      1660
+
+    accuracy                           0.70      3278
+   macro avg       0.70      0.70      0.70      3278
+weighted avg       0.70      0.70      0.70      3278
+
+       CB   Non
+CB   1126   492
+Non   489  1171
+
+Classifier:Random Forest
+Best prarameters:{'RF__criterion': 'entropy', 'RF__max_depth': 6, 'RF__max_features': 'sqrt', 'RF__n_estimators': 150}
+Accuracy:0.7034777303233679
+Classification report:              precision    recall  f1-score   support
+
+          CB       0.70      0.70      0.70      1619
+         Non       0.71      0.71      0.71      1659
+
+    accuracy                           0.70      3278
+   macro avg       0.70      0.70      0.70      3278
+weighted avg       0.70      0.70      0.70      3278
+
+       CB   Non
+CB   1128   491
+Non   481  1178
+
+Classifier:Stochastic Gradient Descent
+Best prarameters:{'SGD__eta0': 0.01, 'SGD__learning_rate': 'invscaling', 'SGD__loss': 'hinge', 'SGD__penalty': 'l2', 'SGD__tol': 0.01}
+Accuracy:0.7050030506406345
+Classification report:              precision    recall  f1-score   support
+
+          CB       0.71      0.69      0.70      1613
+         Non       0.70      0.72      0.71      1665
+
+    accuracy                           0.71      3278
+   macro avg       0.71      0.70      0.70      3278
+weighted avg       0.71      0.71      0.70      3278
+
+       CB   Non
+CB   1107   506
+Non   461  1204

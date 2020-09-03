@@ -1,50 +1,45 @@
-# REMA-thesis-project Ngan Nguyen
-Automatic identificastion of clickbait headlines
-This repository is an example for the structure and content that a CLTL thesis project may have. 
-
+# Clickbait anotomy: Identify clickbait with machine learning
+ 
 # Overview
-This repository assumes a Python project, with an Open License (MIT style). If any of these aspects are different from your project please make sure to change those accordingly.
-Please feel free to clone/fork this repository and use it as a template for your thesis.
+This project is a part of the Master Thesis "Clickbait anotomy: Identify clickbait with machine learning", for the Research Master in Humanities, specialising in Human Language Technology at the Vrije Universiteit.
 
-# Project structure
+This project aims at analysing the linguistic features of clickbait in order to make a distinction between clickbait and non-clickbait and to engineer features for three different machine classifiers Logistic Regression, Random Forest and Support Vector Machine. 
 
-```
-thesis-project
-└───data
-│       │   sample_data.csv 
-└───results
-│       │   sample_results.png 
-└───src
-│   └───utils
-│       │   plotting.py
-│   │   main.py
-│   .gitignore
-│   LICENSE
-│   README.md
-│   requirements.tx
-```
+The results of the analysis shows that syntactic and semantic features are importance to detect clickbait headlines. In this project, 100-dimension word embeddings and encoded sequential part-of-speech and dependency tags are used to represent clickbait headlines, while a 100-dimension document embedding model is trained to represent the contents of clickbait. The best performance is achieved SVM clasiffier with word embeddings with the results of 0.82 precision and recall.
 
-# To Do
-Once you start, please go through the following steps to tailor this template to your project
-
-## Thesis report
-You may decide to upload your report here directly, or to simply add a reference to where the report is hosted (e.g. Overleaf)
-- [ ] Add a reference to the thesis report
-
-## Data 
-To ensure reproducibility, Yu need to provide the data your project uses.
-- [ ] Add your data in the data folder
-
-Sometimes, sharing sharing data is not straightforward. For example, there may be restrictions regarding with whom or how you can share the data you have. Some other times, the data you are using is open and easily accessible from other sites, in which case you might want to point directly to the original source. Either way, if this is the case for you please 
-- [ ] Add the data folder to ``.gitignore`` in order to avoid commiting these files to Github. For this you can simply uncomment the last line in the ``.gitignore`` file  
-```
-# Tailored ignored files
-data/*
-```
-- [ ] Make sure to add a ``README.md`` file inside the data folder, where you explain in detail how to obtain and structure the data
-
+# Data
+The Data for this project is two dataset: the Clickbait Challenge 2017 dataset and clickbait headline dataset from Chakraborty et al (2016). The firt dataset contains clickbait and non-clickbait headlines and contents. The second one only consist of headlines.
 ## README
-- [ ] Add instructions on how to set up the project, how to run your code and what to expect as an output.
+
+Download two datasets from https://www.clickbait-challenge.org/ and https://github.com/bhargaviparanjape/clickbait
+
+Create a directory "Data" in the same directory as the code
+
+Unzip the data files from two links above, and put the data folders in "Data" folder
+
+Run the scripts in this order:
+
+I. For the linguistic analysis of clickbait and non-clickait
+
+      python preprocessing_data.py
+
+      python analyse_data.py
+
+The results of the analysis in pdf format and stored in folder "Figures"
+
+II. For the feature extraction from the two corpora
+
+      python balanced_data.py
+
+      python extract_features.py
+
+The rsults are two models of embeddings stored in folder "Model" and feature vectors for training in folder "Vector"
+
+II. For the training and evaluating of machine learning algorithms
+
+      python classifier
+
+The results are reports on the performance of each classifier in txt format, stored in "Results"
 
 
 
