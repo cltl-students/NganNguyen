@@ -11,7 +11,7 @@ The results of the analysis shows that syntactic and semantic features are impor
 The Data for this project is two dataset: the Clickbait Challenge 2017 dataset and clickbait headline dataset from Chakraborty et al (2016). The firt dataset contains clickbait and non-clickbait headlines and contents. The second one only consist of headlines.
 ## README
 
-Download two datasets from https://www.clickbait-challenge.org/ and https://github.com/bhargaviparanjape/clickbait
+Download two datasets from https://zenodo.org/record/3346491 and https://github.com/bhargaviparanjape/clickbait
 
 Create a directory "Data" in the same directory as the code
 
